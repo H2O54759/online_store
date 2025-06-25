@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.Name }} - My Online Store{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- Product Images Carousel -->
+    <div class="col-md-6">
+        {% if image_urls %}
+        <div id="productCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                {% for url in image_urls %}
+                <div class="carousel-item {% if loop.first %}active{% endif %}">
+                    <img src="{{ url_for('static', filename=url) }}"
+                         class="d-block w-100"
+                         alt="Product Image"
+                         style="max-height: 500px; object-fit: contain;">
+                </div>
+                {% endfor %}
+            </div>
+            {% if image_urls|length > 1 %}
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            {% endif %}
+        </div>
+
+        <!-- Thumbnails below carousel -->
+        {% if image_urls|length > 1 %}
+        <div class="d-flex justify-content-center mb-4">
+            {% for url in image_urls %}
+            <button type="button"
+                    class="btn btn-outline-primary mx-1"
+                    data-carousel-index="{{ loop.index0 }}"
+                    aria-label="Image {{ loop.index }}">
+                {{ loop.index }}
+            </button>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% else %}
+        <img src="{{ url_for('static', filename=product.main_image()) }}"
+             alt="No image available"
+             class="img-fluid mb-3"
+             style="max-height: 500px; object-fit: contain;">
+        {% endif %}
+    </div>
+
+    <!-- Product Details -->
+    <div class="col-md-6 d-flex flex-column">
+        <h2 class="mb-3">{{ product.Name }}</h2>
+        <h4 class="text-success mb-3">${{ "%.2f"|format(product.Price) }}</h4>
+
+        <p class="mb-4">{{ product.Description }}</p>
+        {% if product.Stock > 0 %}
+        <a href="{{ url_for('add_to_cart', product_id=product.ProductId) }}" class="btn btn-success btn-lg mt-auto">Add to Cart</a>
+        {% else %}
+        <button class="btn btn-secondary btn-lg mt-auto" disabled>Out of Stock</button>
+        {% endif %}
+
+        <a href="{{ url_for('home') }}" class="btn btn-link mt-3">← Back to Store</a>
+    </div>
+</div>
+
+<!-- Link external JS file -->
+<script src="{{ url_for('static', filename='product_detail.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "admin_base.html" %}
+
+{% block title %}Edit Product{% endblock %}
+{% block header %}Edit Product{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        <p>
+            {{ form.name.label }}<br>
+            {{ form.name(size=40) }}
+        </p>
+        <p>
+            {{ form.description.label }}<br>
+            {{ form.description(cols=40, rows=4) }}
+        </p>
+        <p>
+            {{ form.price.label }}<br>
+            {{ form.price(step="0.01") }}
+        </p>
+        <p>
+            {{ form.stock.label }}<br>
+            {{ form.stock() }}
+        </p>
+        <p>
+            {{ form.category.label }}<br>
+            {{ form.category() }}
+        </p>
+        <p>
+            {{ form.image_url.label }}<br>
+            {{ form.image_url(size=60) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+
+        <p><a href="{{ url_for('admin_dashboard') }}" class="button">Back to Admin Dashboard</a></p>
+    </form>
+{% endblock %}

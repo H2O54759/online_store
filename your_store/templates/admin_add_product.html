@@ -1,0 +1,37 @@
+{% extends "admin_base.html" %}
+
+{% block title %}Add Product - Admin{% endblock %}
+{% block header %}Add New Product{% endblock %}
+
+{% block styles %}
+<style>
+    .success { color: green; }
+    .error, .danger { color: red; }
+</style>
+{% endblock %}
+
+{% block content %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul>
+          {% for category, msg in messages %}
+            <li class="{{ category }}">{{ msg }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        <p>{{ form.name.label }}<br>{{ form.name(size=40) }}</p>
+        <p>{{ form.description.label }}<br>{{ form.description(cols=40, rows=4) }}</p>
+        <p>{{ form.price.label }}<br>{{ form.price(step="0.01") }}</p>
+        <p>{{ form.stock.label }}<br>{{ form.stock() }}</p>
+        <p>{{ form.category.label }}<br>{{ form.category() }}</p>
+        <p>{{ form.image_url.label }}<br>{{ form.image_url(size=60) }}</p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <p><a href="{{ url_for('admin_dashboard') }}" class="button">Back to Admin Dashboard</a></p>
+{% endblock %}

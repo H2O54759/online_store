@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Your Cart - My Online Store{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Your Shopping Cart</h1>
+
+{% if cart_items %}
+<table class="table table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>Product</th>
+            <th class="text-center">Quantity</th>
+            <th class="text-end">Price</th>
+            <th class="text-end">Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in cart_items %}
+        <tr>
+            <td>
+                <strong>{{ item.product.name }}</strong><br>
+                <small class="text-muted">{{ item.product.description }}</small>
+            </td>
+            <td class="text-center">
+                <form method="POST" action="{{ url_for('update_cart', product_id=item.product.ProductId) }}" class="d-inline">
+                    <input type="hidden" name="action" value="decrease">
+                    <button class="btn btn-sm btn-outline-secondary">−</button>
+                </form>
+                <span class="mx-2">{{ item.quantity }}</span>
+                <form method="POST" action="{{ url_for('update_cart', product_id=item.product.ProductId) }}" class="d-inline">
+                    <input type="hidden" name="action" value="increase">
+                    <button class="btn btn-sm btn-outline-secondary">+</button>
+                </form>
+            </td>
+            <td class="text-end">${{ item.product.price }}</td>
+            <td class="text-end">${{ item.total | round(2) }}</td>
+            <td class="text-end">
+                <form method="POST" action="{{ url_for('update_cart', product_id=item.product.ProductId) }}">
+                    <input type="hidden" name="action" value="remove">
+                    <button class="btn btn-sm btn-outline-danger" title="Remove">Remove</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div class="text-end">
+    <h4>Total: ${{ total_price }}</h4>
+    <a href="{{ url_for('checkout') }}" class="btn btn-success btn-lg mt-3">Proceed to Checkout</a>
+</div>
+{% else %}
+<p>Your cart is empty. <a href="{{ url_for('home') }}">Continue shopping</a>.</p>
+{% endif %}
+{% endblock %}

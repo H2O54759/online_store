@@ -1,0 +1,376 @@
+2025-06-25 01:29:42,875 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:29:42,876 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:29:42,876 - INFO - Scheduler started
+2025-06-25 01:29:42,888 - WARNING -  * Debugger is active!
+2025-06-25 01:29:42,892 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:29:47,548 - INFO - Scheduler has been shut down
+2025-06-25 01:29:52,927 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:29:52,928 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:29:52,928 - INFO - Scheduler started
+2025-06-25 01:29:52,946 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:29:52,946 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:29:52,953 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:29:53,478 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:29:53,479 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:29:53,479 - INFO - Scheduler started
+2025-06-25 01:29:53,490 - WARNING -  * Debugger is active!
+2025-06-25 01:29:53,493 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:30:01,375 - INFO - Scheduler has been shut down
+2025-06-25 01:30:01,419 - INFO - Scheduler has been shut down
+2025-06-25 01:30:05,921 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:30:05,921 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:30:05,921 - INFO - Scheduler started
+2025-06-25 01:30:05,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:30:05,939 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:30:05,946 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:30:06,474 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:30:06,475 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:30:06,475 - INFO - Scheduler started
+2025-06-25 01:30:06,486 - WARNING -  * Debugger is active!
+2025-06-25 01:30:06,489 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:31:32,980 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:32] "GET / HTTP/1.1" 200 -
+2025-06-25 01:31:33,355 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:31:33,355 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:33] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:31:33,356 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:33] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:31:33,357 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:33] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:31:33,566 - INFO - 127.0.0.1 - - [25/Jun/2025 01:31:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 01:31:46,785 - INFO - Scheduler has been shut down
+2025-06-25 01:31:46,835 - INFO - Scheduler has been shut down
+2025-06-25 01:31:52,177 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:31:52,178 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:31:52,178 - INFO - Scheduler started
+2025-06-25 01:31:52,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:31:52,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:31:52,203 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:31:52,728 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:31:52,729 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:31:52,729 - INFO - Scheduler started
+2025-06-25 01:31:52,740 - WARNING -  * Debugger is active!
+2025-06-25 01:31:52,744 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:31:55,204 - INFO - Scheduler has been shut down
+2025-06-25 01:31:55,249 - INFO - Scheduler has been shut down
+2025-06-25 01:36:25,173 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:36:25,174 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:36:25,174 - INFO - Scheduler started
+2025-06-25 01:36:25,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:36:25,193 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:36:25,201 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:36:25,725 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:36:25,726 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:36:25,726 - INFO - Scheduler started
+2025-06-25 01:36:25,737 - WARNING -  * Debugger is active!
+2025-06-25 01:36:25,741 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:38:42,311 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:38:42,312 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:38:42,312 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:38:43,314 - INFO - Scheduler has been shut down
+2025-06-25 01:38:43,379 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:38:43,970 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:38:43,970 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:38:43,970 - INFO - Scheduler started
+2025-06-25 01:38:43,983 - WARNING -  * Debugger is active!
+2025-06-25 01:38:43,986 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:38:47,618 - INFO - Scheduler has been shut down
+2025-06-25 01:38:47,663 - INFO - Scheduler has been shut down
+2025-06-25 01:38:51,953 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:38:51,954 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:38:51,954 - INFO - Scheduler started
+2025-06-25 01:38:51,972 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:38:51,972 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:38:51,979 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:38:52,501 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:38:52,502 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:38:52,502 - INFO - Scheduler started
+2025-06-25 01:38:52,513 - WARNING -  * Debugger is active!
+2025-06-25 01:38:52,517 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:42:34,235 - INFO - Scheduler has been shut down
+2025-06-25 01:42:34,280 - INFO - Scheduler has been shut down
+2025-06-25 01:42:41,398 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:42:41,399 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:42:41,399 - INFO - Scheduler started
+2025-06-25 01:42:41,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:42:41,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:42:41,421 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:42:41,870 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:42:41,871 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:42:41,871 - INFO - Scheduler started
+2025-06-25 01:42:41,880 - WARNING -  * Debugger is active!
+2025-06-25 01:42:41,884 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:44:05,714 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:05] "GET / HTTP/1.1" 200 -
+2025-06-25 01:44:06,110 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:06] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:44:06,110 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:06] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:44:06,110 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:44:06,117 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:06] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:44:06,443 - INFO - 127.0.0.1 - - [25/Jun/2025 01:44:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 01:48:42,447 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\schedulers\\background.py', reloading
+2025-06-25 01:48:42,455 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\schedulers\\blocking.py', reloading
+2025-06-25 01:48:42,466 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\schedulers\\base.py', reloading
+2025-06-25 01:48:42,599 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\util.py', reloading
+2025-06-25 01:48:42,613 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\job.py', reloading
+2025-06-25 01:48:42,626 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\triggers\\base.py', reloading
+2025-06-25 01:48:42,635 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\jobstores\\base.py', reloading
+2025-06-25 01:48:42,645 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\executors\\base.py', reloading
+2025-06-25 01:48:42,668 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\events.py', reloading
+2025-06-25 01:48:42,678 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\executors\\pool.py', reloading
+2025-06-25 01:48:42,689 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\apscheduler\\jobstores\\memory.py', reloading
+2025-06-25 01:48:43,476 - INFO - Scheduler has been shut down
+2025-06-25 01:48:43,543 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:48:44,404 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:48:44,406 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:48:44,406 - INFO - Scheduler started
+2025-06-25 01:48:44,419 - WARNING -  * Debugger is active!
+2025-06-25 01:48:44,423 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:48:52,629 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:48:52,629 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:48:52,630 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:48:53,669 - INFO - Scheduler has been shut down
+2025-06-25 01:48:53,716 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:48:54,264 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:48:54,265 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:48:54,265 - INFO - Scheduler started
+2025-06-25 01:48:54,267 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:48:54,278 - WARNING -  * Debugger is active!
+2025-06-25 01:48:54,281 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:48:59,252 - INFO - Scheduler has been shut down
+2025-06-25 01:48:59,302 - INFO - Scheduler has been shut down
+2025-06-25 01:49:05,957 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:49:05,958 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:49:05,959 - INFO - Scheduler started
+2025-06-25 01:49:05,959 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:49:05,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:49:05,980 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:49:05,987 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:49:06,508 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:49:06,509 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:49:06,510 - INFO - Scheduler started
+2025-06-25 01:49:06,510 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:49:06,521 - WARNING -  * Debugger is active!
+2025-06-25 01:49:06,525 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:49:37,992 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:37] "GET / HTTP/1.1" 200 -
+2025-06-25 01:49:38,382 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:49:38,382 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:38] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:49:38,382 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:38] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:49:38,383 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:38] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:49:38,632 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 01:49:42,850 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\attributes.py', reloading
+2025-06-25 01:49:42,859 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\collections.py', reloading
+2025-06-25 01:49:42,868 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\unitofwork.py', reloading
+2025-06-25 01:49:42,883 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:42] "[35m[1mGET /product/7 HTTP/1.1[0m" 500 -
+2025-06-25 01:49:42,902 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:42] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-25 01:49:42,909 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:42] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-25 01:49:42,916 - INFO - 127.0.0.1 - - [25/Jun/2025 01:49:42] "GET /product/7?__debugger__=yes&cmd=resource&f=console.png&s=8EVDoK9lwX3cSy5q7rTD HTTP/1.1" 200 -
+2025-06-25 01:49:43,259 - INFO - Scheduler has been shut down
+2025-06-25 01:49:43,319 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:49:43,889 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:49:43,890 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:49:43,890 - INFO - Scheduler started
+2025-06-25 01:49:43,891 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:49:43,903 - WARNING -  * Debugger is active!
+2025-06-25 01:49:43,907 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:50:13,452 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:13] "GET /admin HTTP/1.1" 200 -
+2025-06-25 01:50:13,745 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:13] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:50:13,746 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:13] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:50:13,746 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:13] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:50:23,985 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:23] "[35m[1mGET /product/7 HTTP/1.1[0m" 500 -
+2025-06-25 01:50:23,992 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:23] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-25 01:50:23,993 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:23] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-25 01:50:23,999 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:23] "GET /product/7?__debugger__=yes&cmd=resource&f=console.png&s=EyNoJSAKBZrKaE3U9jDj HTTP/1.1" 200 -
+2025-06-25 01:50:27,435 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:27] "[35m[1mGET /product/7 HTTP/1.1[0m" 500 -
+2025-06-25 01:50:27,442 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:27] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-25 01:50:27,443 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:27] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-25 01:50:27,449 - INFO - 127.0.0.1 - - [25/Jun/2025 01:50:27] "[36mGET /product/7?__debugger__=yes&cmd=resource&f=console.png&s=EyNoJSAKBZrKaE3U9jDj HTTP/1.1[0m" 304 -
+2025-06-25 01:55:31,487 - INFO - Scheduler has been shut down
+2025-06-25 01:55:31,547 - INFO - Scheduler has been shut down
+2025-06-25 01:55:36,149 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:55:36,150 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:55:36,150 - INFO - Scheduler started
+2025-06-25 01:55:36,151 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:55:36,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 01:55:36,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 01:55:36,192 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:55:36,743 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:55:36,744 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:55:36,744 - INFO - Scheduler started
+2025-06-25 01:55:36,745 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:55:36,756 - WARNING -  * Debugger is active!
+2025-06-25 01:55:36,760 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:55:40,799 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:40] "GET / HTTP/1.1" 200 -
+2025-06-25 01:55:41,194 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:41] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:55:41,194 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:55:41,194 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:41] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:55:41,201 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:41] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:55:41,489 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 01:55:47,787 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:55:47,788 - INFO -  * Detected change in 'C:\\Users\\ender\\Desktop\\your_store\\app.py', reloading
+2025-06-25 01:55:48,062 - INFO - Scheduler has been shut down
+2025-06-25 01:55:48,137 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 01:55:48,741 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 01:55:48,741 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 01:55:48,742 - INFO - Scheduler started
+2025-06-25 01:55:48,742 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 01:55:48,755 - WARNING -  * Debugger is active!
+2025-06-25 01:55:48,758 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 01:55:53,177 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:53] "GET /product/7 HTTP/1.1" 200 -
+2025-06-25 01:55:53,564 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:55:53,564 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:53] "GET /static/product_images/7_alt1.jpg.jpg HTTP/1.1" 200 -
+2025-06-25 01:55:53,565 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:53] "GET /static/product_images/7_alt2.jpg.jpg HTTP/1.1" 200 -
+2025-06-25 01:55:53,567 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:53] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:55:59,889 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:59] "GET /product/8 HTTP/1.1" 200 -
+2025-06-25 01:55:59,895 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:59] "[33mGET /static/placeholder.jpg HTTP/1.1[0m" 404 -
+2025-06-25 01:55:59,896 - INFO - 127.0.0.1 - - [25/Jun/2025 01:55:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:56:03,206 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:03] "GET /product/10 HTTP/1.1" 200 -
+2025-06-25 01:56:03,212 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:56:03,213 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:03] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:56:06,487 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:06] "GET /product/7 HTTP/1.1" 200 -
+2025-06-25 01:56:06,495 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 01:56:06,497 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:06] "[36mGET /static/product_images/7_alt1.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:56:06,501 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:06] "[36mGET /static/product_images/7_alt2.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:56:06,507 - INFO - 127.0.0.1 - - [25/Jun/2025 01:56:06] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 01:58:52,121 - INFO - Scheduler has been shut down
+2025-06-25 01:58:52,175 - INFO - Scheduler has been shut down
+2025-06-25 02:25:48,839 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 02:25:48,840 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 02:25:48,841 - INFO - Scheduler started
+2025-06-25 02:25:48,841 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 02:25:48,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 02:25:48,873 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 02:25:48,881 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 02:25:49,423 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 02:25:49,424 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 02:25:49,424 - INFO - Scheduler started
+2025-06-25 02:25:49,425 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 02:25:49,436 - WARNING -  * Debugger is active!
+2025-06-25 02:25:49,440 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 02:25:54,074 - INFO - 127.0.0.1 - - [25/Jun/2025 02:25:54] "GET / HTTP/1.1" 200 -
+2025-06-25 02:25:54,453 - INFO - 127.0.0.1 - - [25/Jun/2025 02:25:54] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:25:54,453 - INFO - 127.0.0.1 - - [25/Jun/2025 02:25:54] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:25:54,454 - INFO - 127.0.0.1 - - [25/Jun/2025 02:25:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 02:25:54,462 - INFO - 127.0.0.1 - - [25/Jun/2025 02:25:54] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:01,132 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:01] "GET /product/7 HTTP/1.1" 200 -
+2025-06-25 02:26:01,139 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-25 02:26:01,147 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:01] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:01,151 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:01] "[36mGET /static/product_images/7_alt1.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:01,151 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:01] "[36mGET /static/product_images/7_alt2.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:43,044 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:43] "GET /admin HTTP/1.1" 200 -
+2025-06-25 02:26:43,050 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:43] "[36mGET /static/product_images/7_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:43,051 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:43] "[36mGET /static/default.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:43,052 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:43] "[36mGET /static/product_images/10_main.jpg.jpg HTTP/1.1[0m" 304 -
+2025-06-25 02:26:50,688 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\app.py', reloading
+2025-06-25 02:26:50,708 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\templating.py', reloading
+2025-06-25 02:26:50,740 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\jinja2\\environment.py', reloading
+2025-06-25 02:26:50,809 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\jinja2\\utils.py', reloading
+2025-06-25 02:26:50,824 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:50] "[35m[1mGET /admin/edit/7 HTTP/1.1[0m" 500 -
+2025-06-25 02:26:50,962 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:50] "GET /admin/edit/7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-25 02:26:51,040 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:51] "GET /admin/edit/7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-25 02:26:51,070 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:51] "GET /admin/edit/7?__debugger__=yes&cmd=resource&f=console.png&s=3wgD6wa9hGy7HuolFKHr HTTP/1.1" 200 -
+2025-06-25 02:26:51,077 - INFO - 127.0.0.1 - - [25/Jun/2025 02:26:51] "GET /admin/edit/7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-25 02:26:51,639 - INFO - Scheduler has been shut down
+2025-06-25 02:26:51,697 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 02:26:52,265 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 02:26:52,266 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 02:26:52,266 - INFO - Scheduler started
+2025-06-25 02:26:52,267 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 02:26:52,278 - WARNING -  * Debugger is active!
+2025-06-25 02:26:52,282 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 02:27:02,409 - INFO - 127.0.0.1 - - [25/Jun/2025 02:27:02] "[35m[1mGET /admin/add-product HTTP/1.1[0m" 500 -
+2025-06-25 02:27:02,643 - INFO - 127.0.0.1 - - [25/Jun/2025 02:27:02] "[36mGET /admin/add-product?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-25 02:27:02,643 - INFO - 127.0.0.1 - - [25/Jun/2025 02:27:02] "[36mGET /admin/add-product?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-25 02:27:02,655 - INFO - 127.0.0.1 - - [25/Jun/2025 02:27:02] "GET /admin/add-product?__debugger__=yes&cmd=resource&f=console.png&s=PV4FSN1RhzyKRdj8xGkC HTTP/1.1" 200 -
+2025-06-25 02:30:32,488 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\__init__.py', reloading
+2025-06-25 02:30:32,505 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+2025-06-25 02:30:32,515 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\config.py', reloading
+2025-06-25 02:30:32,525 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\ctx.py', reloading
+2025-06-25 02:30:32,534 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\globals.py', reloading
+2025-06-25 02:30:32,544 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\helpers.py', reloading
+2025-06-25 02:30:32,554 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\wrappers.py', reloading
+2025-06-25 02:30:32,564 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-06-25 02:30:32,571 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-06-25 02:30:32,580 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\typing.py', reloading
+2025-06-25 02:30:32,592 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\sansio\\app.py', reloading
+2025-06-25 02:30:32,603 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-06-25 02:30:32,619 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-06-25 02:30:32,639 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\utils.py', reloading
+2025-06-25 02:30:32,647 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\jinja2\\__init__.py', reloading
+2025-06-25 02:30:32,658 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\markupsafe\\__init__.py', reloading
+2025-06-25 02:30:32,659 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-06-25 02:30:32,667 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-06-25 02:30:32,669 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-06-25 02:30:32,679 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-06-25 02:30:32,682 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-06-25 02:30:32,688 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\_internal.py', reloading
+2025-06-25 02:30:32,698 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-06-25 02:30:32,699 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+2025-06-25 02:30:32,709 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\__init__.py', reloading
+2025-06-25 02:30:32,717 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\event\\__init__.py', reloading
+2025-06-25 02:30:32,727 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+2025-06-25 02:30:32,737 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\model.py', reloading
+2025-06-25 02:30:32,746 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\query.py', reloading
+2025-06-25 02:30:32,756 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\session.py', reloading
+2025-06-25 02:30:32,762 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_sqlalchemy\\table.py', reloading
+2025-06-25 02:30:32,772 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+2025-06-25 02:30:32,780 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\engine\\__init__.py', reloading
+2025-06-25 02:30:32,790 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\inspection.py', reloading
+2025-06-25 02:30:32,800 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\schema.py', reloading
+2025-06-25 02:30:32,811 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+2025-06-25 02:30:32,825 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+2025-06-25 02:30:32,846 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+2025-06-25 02:30:32,859 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\roles.py', reloading
+2025-06-25 02:30:32,871 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+2025-06-25 02:30:32,895 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+2025-06-25 02:30:32,917 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+2025-06-25 02:30:32,930 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\util\\typing.py', reloading
+2025-06-25 02:30:32,941 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\_typing.py', reloading
+2025-06-25 02:30:32,952 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\cache_key.py', reloading
+2025-06-25 02:30:32,964 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\traversals.py', reloading
+2025-06-25 02:30:32,976 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\_orm_types.py', reloading
+2025-06-25 02:30:32,989 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\event\\registry.py', reloading
+2025-06-25 02:30:33,002 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\util\\_collections.py', reloading
+2025-06-25 02:30:33,016 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\util\\langhelpers.py', reloading
+2025-06-25 02:30:33,031 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\util\\_py_collections.py', reloading
+2025-06-25 02:30:33,045 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\lambdas.py', reloading
+2025-06-25 02:30:33,056 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\annotation.py', reloading
+2025-06-25 02:30:33,074 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\mapper.py', reloading
+2025-06-25 02:30:33,086 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\base.py', reloading
+2025-06-25 02:30:33,099 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\decl_api.py', reloading
+2025-06-25 02:30:33,114 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\interfaces.py', reloading
+2025-06-25 02:30:33,130 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\query.py', reloading
+2025-06-25 02:30:33,146 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\relationships.py', reloading
+2025-06-25 02:30:33,165 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+2025-06-25 02:30:33,191 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\session.py', reloading
+2025-06-25 02:30:33,203 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\state.py', reloading
+2025-06-25 02:30:33,213 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\util.py', reloading
+2025-06-25 02:30:33,223 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\orm\\_typing.py', reloading
+2025-06-25 02:30:33,231 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\log.py', reloading
+2025-06-25 02:30:33,256 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\sqlalchemy\\sql\\operators.py', reloading
+2025-06-25 02:30:33,271 - INFO -  * Detected change in 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\datetime.py', reloading
+2025-06-25 02:30:33,278 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_wtf\\__init__.py', reloading
+2025-06-25 02:30:33,291 - INFO -  * Detected change in 'C:\\Users\\ender\\AppData\\Roaming\\Python\\Python39\\site-packages\\flask_wtf\\form.py', reloading
+2025-06-25 02:30:33,313 - INFO - Scheduler has been shut down
+2025-06-25 02:30:33,395 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 02:30:34,027 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 02:30:34,030 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 02:30:34,030 - INFO - Scheduler started
+2025-06-25 02:30:34,036 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 02:30:34,057 - WARNING -  * Debugger is active!
+2025-06-25 02:30:34,061 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 02:31:19,716 - INFO -  * Detected change in 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\pathlib.py', reloading
+2025-06-25 02:31:19,726 - INFO -  * Detected change in 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\codecs.py', reloading
+2025-06-25 02:31:19,937 - INFO - Scheduler has been shut down
+2025-06-25 02:31:19,990 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-25 02:31:20,574 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-25 02:31:20,575 - INFO - Added job "cleanup_duplicate_primary_images" to job store "default"
+2025-06-25 02:31:20,575 - INFO - Scheduler started
+2025-06-25 02:31:20,576 - INFO - Scheduler started with daily 3 AM cleanup job.
+2025-06-25 02:31:20,589 - WARNING -  * Debugger is active!
+2025-06-25 02:31:20,593 - INFO -  * Debugger PIN: 545-574-938
+2025-06-25 02:32:04,648 - INFO - Scheduler has been shut down
+2025-06-25 02:32:04,697 - INFO - Scheduler has been shut down

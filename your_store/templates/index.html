@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Online Store{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Welcome to My Online Store!</h1>
+
+<div class="row">
+    {% for product in products %}
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename=product.main_image()) }}" class="card-img-top" alt="{{ product.Name }}" style="height: 300px; object-fit: cover;">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">{{ product.Name }}</h5>
+                <p class="card-text">${{ "%.2f"|format(product.Price) }}</p>
+                <p class="card-text text-muted small">{{ product.Description }}</p>
+                <a href="{{ url_for('product_detail', product_id=product.ProductId) }}" class="btn btn-primary mt-auto">View Details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
