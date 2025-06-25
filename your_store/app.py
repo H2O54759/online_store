@@ -11,13 +11,11 @@ from forms import ProductForm
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
-# --- Flask app setup ---
 app = Flask(__name__)
 app.config.from_object(Config)
 app.config['SECRET_KEY'] = Config.SECRET_KEY or 'replace-with-a-secure-random-key'
 db.init_app(app)
 
-# --- Logging setup: log to file and console ---
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
@@ -34,12 +32,9 @@ console_handler = logging.StreamHandler(sys.stdout)
 console_handler.setFormatter(file_formatter)
 logger.addHandler(console_handler)
 
-# --- Context processor for site-wide settings ---
 @app.context_processor
 def inject_site_settings():
     return dict(site_settings=SITE_SETTINGS)
-
-# --- Routes ---
 
 @app.route('/')
 def home():
@@ -49,26 +44,27 @@ def home():
 @app.route('/product/<int:product_id>')
 def product_detail(product_id):
     product = Product.query.get_or_404(product_id)
-    images = product.images  # full ORM objects
+    images = product.images
     image_urls = [img.ImageUrl for img in images] if images else []
     return render_template('product.html', product=product, images=images, image_urls=image_urls)
-
 
 @app.route('/add-to-cart/<int:product_id>')
 def add_to_cart(product_id):
     product = Product.query.get(product_id)
     if not product:
-        return "Product not found", 404
+        flash("Product not found.", "danger")
+        return redirect(url_for('home'))
     cart = session.get('cart', {})
     cart[str(product_id)] = cart.get(str(product_id), 0) + 1
     session['cart'] = cart
+    flash(f"Added {product.Name} to cart.", "success")
     return redirect(url_for('cart'))
 
 @app.route('/cart')
 def cart():
     cart = session.get('cart', {})
     cart_items = []
-    total_price = 0
+    total_price = 0.0
     for product_id, qty in cart.items():
         product = Product.query.get(int(product_id))
         if product:
@@ -83,30 +79,41 @@ def update_cart(product_id):
     cart = session.get('cart', {})
     key = str(product_id)
     if key not in cart:
+        flash("Item not in cart.", "warning")
         return redirect(url_for('cart'))
+
     if action == 'increase':
         cart[key] += 1
     elif action == 'decrease':
         cart[key] = max(1, cart[key] - 1)
     elif action == 'remove':
         cart.pop(key, None)
+    else:
+        flash("Invalid action.", "warning")
+
     session['cart'] = cart
     return redirect(url_for('cart'))
 
-@app.route('/checkout', methods=['GET', 'POST'])
+@app.route('/checkout')
 def checkout():
-    if request.method == 'POST':
-        session.pop('cart', None)
-        return "<h1>Thank you for your order!</h1><p><a href='/'>Return home</a></p>"
-    return """
-    <h1>Checkout</h1>
-    <form method="post">
-        Name: <input name="name" required><br>
-        Email: <input type="email" name="email" required><br>
-        Address: <input name="address" required><br>
-        <button type="submit">Place Order</button>
-    </form>
-    """
+    cart = session.get('cart', {})
+    products = []
+
+    for product_id, quantity in cart.items():
+        product = Product.query.get(int(product_id))
+        if product:
+            products.append({
+                'product': product,
+                'quantity': quantity,
+                'price': float(product.Price),
+                'subtotal': quantity * float(product.Price)
+            })
+
+    total_amount = sum(item['subtotal'] for item in products)
+
+    return render_template('checkout.html', products=products, total_amount=total_amount)
+
+# --- Admin routes ---
 
 @app.route('/admin')
 def admin_dashboard():
@@ -116,13 +123,14 @@ def admin_dashboard():
 @app.route('/admin/add-product', methods=['GET', 'POST'])
 def add_product():
     form = ProductForm()
-    existing_categories = Category.query.all()
-    if not existing_categories:
+    categories = Category.query.order_by(Category.Name).all()
+    if not categories:
         default_cats = ["Rifle Accessories", "Pistol Accessories", "Outdoors Gear", "Misc."]
         db.session.add_all([Category(Name=name) for name in default_cats])
         db.session.commit()
-        existing_categories = Category.query.all()
-    form.category.choices = [(c.CategoryId, c.Name) for c in existing_categories]
+        categories = Category.query.order_by(Category.Name).all()
+
+    form.category.choices = [(c.CategoryId, c.Name) for c in categories]
 
     if form.validate_on_submit():
         product = Product(
@@ -133,9 +141,11 @@ def add_product():
             CategoryId=form.category.data
         )
         db.session.add(product)
-        db.session.flush()  # To get ProductId before commit
+        db.session.flush()  # To assign ProductId before commit
 
+        # Handle primary image
         if form.image_url.data:
+            # Demote existing primary images (should be none for new product)
             ProductImage.query.filter_by(ProductId=product.ProductId, IsPrimary=True).update({'IsPrimary': False})
             db.session.add(ProductImage(ProductId=product.ProductId, ImageUrl=form.image_url.data, IsPrimary=True))
 
@@ -160,6 +170,7 @@ def edit_product(product_id):
         product.CategoryId = form.category.data
 
         if form.image_url.data:
+            # Demote existing primary images
             ProductImage.query.filter_by(ProductId=product.ProductId, IsPrimary=True).update({'IsPrimary': False})
             existing_image = ProductImage.query.filter_by(ProductId=product.ProductId, ImageUrl=form.image_url.data).first()
             if existing_image:
@@ -171,9 +182,10 @@ def edit_product(product_id):
         flash('Product updated!', 'success')
         return redirect(url_for('admin_dashboard'))
 
-    existing_image = ProductImage.query.filter_by(ProductId=product.ProductId, IsPrimary=True).first()
-    if existing_image:
-        form.image_url.data = existing_image.ImageUrl
+    # Pre-fill the primary image URL in the form
+    primary_img = ProductImage.query.filter_by(ProductId=product.ProductId, IsPrimary=True).first()
+    if primary_img:
+        form.image_url.data = primary_img.ImageUrl
 
     return render_template('admin_edit_product.html', form=form, product=product)
 
@@ -185,32 +197,28 @@ def delete_product(product_id):
     flash('Product deleted!', 'danger')
     return redirect(url_for('admin_dashboard'))
 
-# --- Cleanup function with logging and app context ---
+# --- Cleanup duplicate primary images job ---
 def cleanup_duplicate_primary_images():
     with app.app_context():
-        products_with_duplicates = (
+        duplicates = (
             db.session.query(ProductImage.ProductId)
             .filter(ProductImage.IsPrimary == True)
             .group_by(ProductImage.ProductId)
             .having(db.func.count(ProductImage.ImageId) > 1)
             .all()
         )
-        logger.info(f"Found {len(products_with_duplicates)} products with duplicate primary images.")
+        logger.info(f"Found {len(duplicates)} products with duplicate primary images.")
 
-        for (product_id,) in products_with_duplicates:
-            primary_images = (
-                ProductImage.query.filter_by(ProductId=product_id, IsPrimary=True)
-                .order_by(ProductImage.ImageId)
-                .all()
-            )
+        for (product_id,) in duplicates:
+            primary_images = ProductImage.query.filter_by(ProductId=product_id, IsPrimary=True).order_by(ProductImage.ImageId).all()
+            # Keep the first primary image, demote others
             for img in primary_images[1:]:
                 img.IsPrimary = False
-                logger.info(f"Demoted image {img.ImageId} of product {product_id} from primary.")
+                logger.info(f"Demoted image {img.ImageId} for product {product_id} from primary.")
 
         db.session.commit()
-        logger.info("Cleanup completed and committed.")
+        logger.info("Cleanup job completed.")
 
-# --- Scheduler setup function ---
 def start_scheduler():
     scheduler = BackgroundScheduler()
     scheduler.add_job(func=cleanup_duplicate_primary_images, trigger='cron', hour=3, minute=0)
@@ -218,7 +226,6 @@ def start_scheduler():
     atexit.register(lambda: scheduler.shutdown())
     logger.info("Scheduler started with daily 3 AM cleanup job.")
 
-# --- Main entry ---
 if __name__ == '__main__':
     with app.app_context():
         start_scheduler()
